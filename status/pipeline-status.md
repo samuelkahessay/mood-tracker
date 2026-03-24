@@ -1,22 +1,21 @@
-## Pipeline Status — Updated 2026-03-24
+## Pipeline Status - Updated 2026-03-24
+
+Status: AT_RISK
 
 | Stage | Count |
 |-------|-------|
-| Open Issues | 5 |
+| Open Issues | 0 |
 | In Progress | 0 |
 | PRs In Review | 0 |
 | Completed | 2 |
 
 ### Recent Activity
-- Targeted issue #10 evaluated and reproduced locally: `scripts/tests/test-pr-review-agent-activation.sh` fails on brittle exact-string grep.
-- Task 6 triage: `[aw]` #7 root cause revalidated from run `23470836742` (`push_repo_memory`: `Too many files (109 > 100)`).
-- Repo-memory footprint pruned to keep only persistent pipeline state/status artifacts.
+- Implemented #2: [Pipeline] Establish mood entry domain model and localStorage persistence for daily records -> PR #6 (merged)
+- Implemented #3: [Pipeline] Implement 30-day color-coded mood grid with click-to-add/edit day form -> PR #9 (merged)
+- Investigated #7: [aw] Pipeline Repo Assist failed -> root cause identified as repo-memory file-count overflow in `push_repo_memory`
 
 ### Blocked
-- #10: Duplicate CI-failure signature with #8; fix should be applied once in a dedicated PR.
-- #5: Waiting on #4 (dependency).
+- #7: Repo-memory push failed because memory payload exceeded file-count limit (109 > 100)
 
 ### Next Up
-- #8: Submit minimal test assertion fix for `scripts/tests/test-pr-review-agent-activation.sh`.
-- #4: Add 30-day mood trend line chart positioned below the dashboard grid.
-- #5: Add PRD-level regression tests after #4 is complete.
+- #7: Re-run Pipeline Repo Assist after memory pruning validation

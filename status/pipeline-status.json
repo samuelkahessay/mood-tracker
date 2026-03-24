@@ -1,53 +1,45 @@
 {
-  "updated_at": "2026-03-24T05:13:41Z",
+  "updated_at": "2026-03-24T00:00:00Z",
   "status": "AT_RISK",
   "counts": {
-    "open_issues": 5,
+    "open_issues": 0,
     "in_progress": 0,
     "prs_in_review": 0,
     "completed": 2
   },
   "recent_activity": [
     {
-      "type": "targeted-issue",
-      "issue": 10,
-      "result": "reproduced-brittle-activation-test-assertion"
+      "type": "implemented",
+      "issue": 2,
+      "title": "[Pipeline] Establish mood entry domain model and localStorage persistence for daily records",
+      "pr": 6,
+      "state": "merged"
+    },
+    {
+      "type": "implemented",
+      "issue": 3,
+      "title": "[Pipeline] Implement 30-day color-coded mood grid with click-to-add/edit day form",
+      "pr": 9,
+      "state": "merged"
     },
     {
       "type": "triage",
       "issue": 7,
-      "result": "reconfirmed push_repo_memory file-count overflow and pruned memory footprint"
-    },
-    {
-      "type": "maintenance",
-      "result": "updated state and pipeline status artifacts"
+      "title": "[aw] Pipeline Repo Assist failed",
+      "result": "identified push_repo_memory file-count overflow (109 > 100)"
     }
   ],
   "blocked": [
     {
-      "issue": 10,
-      "reason": "Duplicate CI-failure signature with #8; implement once in dedicated PR"
-    },
-    {
-      "issue": 5,
-      "reason": "Waiting on dependency #4"
+      "issue": 7,
+      "reason": "repo-memory file-count limit exceeded in push_repo_memory"
     }
   ],
   "next_up": [
     {
-      "issue": 8,
-      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T03:04:46.2",
-      "state": "ready"
-    },
-    {
-      "issue": 4,
-      "title": "[Pipeline] Add 30-day mood trend line chart positioned below the dashboard grid",
-      "state": "ready"
-    },
-    {
-      "issue": 5,
-      "title": "[Pipeline] Add PRD-level regression tests for daily logging, grid interactions, chart trend, and localStorage persistence",
-      "state": "blocked"
+      "issue": 7,
+      "title": "[aw] Pipeline Repo Assist failed",
+      "note": "re-run and confirm push_repo_memory succeeds"
     }
   ]
 }
