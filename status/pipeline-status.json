@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-24T04:55:52Z",
+  "updated_at": "2026-03-24T05:13:41Z",
   "status": "AT_RISK",
   "counts": {
-    "open_issues": 6,
+    "open_issues": 5,
     "in_progress": 0,
     "prs_in_review": 0,
     "completed": 2
@@ -10,27 +10,27 @@
   "recent_activity": [
     {
       "type": "targeted-issue",
-      "issue": 8,
-      "result": "ci-failure-reproduced-local-fix-prepared"
+      "issue": 10,
+      "result": "reproduced-brittle-activation-test-assertion"
     },
     {
       "type": "triage",
       "issue": 7,
-      "result": "confirmed push_repo_memory file-count overflow (109 > 100) from failed logs"
+      "result": "reconfirmed push_repo_memory file-count overflow and pruned memory footprint"
     },
     {
       "type": "maintenance",
-      "result": "updated repo-memory pipeline status and state"
+      "result": "updated state and pipeline status artifacts"
     }
   ],
   "blocked": [
     {
-      "issue": 5,
-      "reason": "Waiting on dependency #4"
+      "issue": 10,
+      "reason": "Duplicate CI-failure signature with #8; implement once in dedicated PR"
     },
     {
-      "issue": 8,
-      "reason": "Local fix prepared; awaiting follow-up PR creation"
+      "issue": 5,
+      "reason": "Waiting on dependency #4"
     }
   ],
   "next_up": [
@@ -40,14 +40,14 @@
       "state": "ready"
     },
     {
-      "issue": 10,
-      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T03:24:29.1",
-      "state": "ready"
-    },
-    {
       "issue": 4,
       "title": "[Pipeline] Add 30-day mood trend line chart positioned below the dashboard grid",
       "state": "ready"
+    },
+    {
+      "issue": 5,
+      "title": "[Pipeline] Add PRD-level regression tests for daily logging, grid interactions, chart trend, and localStorage persistence",
+      "state": "blocked"
     }
   ]
 }
