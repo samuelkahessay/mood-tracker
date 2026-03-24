@@ -40,7 +40,8 @@ body {
 }
 
 .mood-grid-section h2,
-.mood-form-section h2 {
+.mood-form-section h2,
+.mood-trend-section h2 {
   font-size: 1.2rem;
   margin-bottom: 0.75rem;
 }
@@ -80,4 +81,45 @@ body {
 .mood-form-section button {
   font: inherit;
   padding: 0.5rem;
+}
+
+.mood-trend-chart {
+  display: block;
+  width: 100%;
+  max-width: 42rem;
+  height: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.mood-trend-axis,
+.mood-trend-line {
+  stroke-width: 2;
+}
+
+.mood-trend-axis {
+  stroke: #555;
+}
+
+.mood-trend-grid-line {
+  stroke: #ddd;
+  stroke-width: 1;
+}
+
+.mood-trend-line {
+  stroke: #2563eb;
+}
+
+.mood-trend-point {
+  fill: #2563eb;
+}
+
+.mood-trend-point-missing {
+  fill: #aaa;
+}
+
+.mood-trend-axis-label {
+  font-size: 11px;
+  fill: #444;
 }
