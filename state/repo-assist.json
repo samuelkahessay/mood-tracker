@@ -1,54 +1,107 @@
 {
-  "updated_at": "2026-03-24T14:02:37Z",
+  "updated_at": "2026-03-24T18:06:02Z",
   "cursor": {
-    "last_issue": 18
+    "last_issue": 19
   },
   "issues": {
     "1": {
       "outcome": "non_actionable",
-      "summary": "Umbrella PRD issue; implementation appears split across child issues (#2-#5) while #1 remains open for housekeeping.",
-      "last_touched": "2026-03-24T14:02:37Z"
+      "summary": "Umbrella PRD issue; implementation is already delivered across child issues #2-#5.",
+      "last_touched": "2026-03-24T18:06:02Z"
     },
     "7": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory job; historical root cause was repo-memory push constraints.",
-      "last_touched": "2026-03-24T14:02:37Z"
+      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed at push_repo_memory; failed-job logs are secret-scoped.",
+      "last_touched": "2026-03-24T18:06:02Z"
     },
     "8": {
       "outcome": "already_covered",
-      "summary": "CI-failure issue appears stale and already covered by merged PR #17 (activation assertion fix).",
-      "last_touched": "2026-03-24T14:02:37Z"
+      "summary": "Stale CI-failure issue; same pr-review-agent activation failure pattern was resolved by merged PR #17 and newer Pipeline Scripts CI run 23485200606 succeeded.",
+      "last_touched": "2026-03-24T18:06:02Z"
     },
     "10": {
       "outcome": "already_covered",
-      "summary": "CI-failure issue appears stale and already covered by merged PR #17 (activation assertion fix).",
-      "last_touched": "2026-03-24T14:02:37Z"
+      "summary": "Stale CI-failure issue; same pr-review-agent activation failure pattern was resolved by merged PR #17 and newer Pipeline Scripts CI run 23485200606 succeeded.",
+      "last_touched": "2026-03-24T18:06:02Z"
     },
     "11": {
       "outcome": "blocked",
-      "summary": "[aw] Code Simplifier run 23475620704 failed in agent job; failed-job log content unavailable due integrity restrictions.",
-      "last_touched": "2026-03-24T14:02:37Z"
+      "summary": "[aw] Code Simplifier run 23475620704 failed in agent job; failed-job logs are secret-scoped.",
+      "last_touched": "2026-03-24T18:06:02Z"
     },
     "13": {
       "outcome": "already_covered",
-      "summary": "CI-failure issue appears stale and already covered by merged PR #17 (activation assertion fix).",
-      "last_touched": "2026-03-24T14:02:37Z"
+      "summary": "Stale CI-failure issue; same pr-review-agent activation failure pattern was resolved by merged PR #17 and newer Pipeline Scripts CI run 23485200606 succeeded.",
+      "last_touched": "2026-03-24T18:06:02Z"
     },
     "16": {
       "outcome": "non_actionable",
-      "summary": "[aw] No-Op Runs tracking issue explicitly marked as no action required.",
-      "last_touched": "2026-03-24T14:02:37Z"
+      "summary": "[aw] No-Op Runs tracker explicitly marked as no action required.",
+      "last_touched": "2026-03-24T18:06:02Z"
     },
     "18": {
       "outcome": "blocked",
-      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job; failed-job log content unavailable due integrity restrictions.",
-      "last_touched": "2026-03-24T14:02:37Z"
+      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job; failed-job logs are secret-scoped.",
+      "last_touched": "2026-03-24T18:06:02Z"
+    },
+    "19": {
+      "outcome": "blocked",
+      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent job; failed-job logs are secret-scoped.",
+      "last_touched": "2026-03-24T18:06:02Z"
     }
   },
   "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
+    {
+      "issue": 19,
+      "outcome": "blocked",
+      "summary": "Triaged Pipeline Status Report run 23495440387; agent job failed and detailed failed logs are inaccessible at current integrity level.",
+      "timestamp": "2026-03-24T18:06:02Z"
+    },
+    {
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Re-triaged Duplicate Code Detector run 23487169184; agent job failure persists with secret-scoped failed logs.",
+      "timestamp": "2026-03-24T18:06:02Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Re-triaged Code Simplifier run 23475620704; agent job failure persists with secret-scoped failed logs.",
+      "timestamp": "2026-03-24T18:06:02Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Re-triaged Pipeline Repo Assist run 23470836742; push_repo_memory job failed and failed-job logs are secret-scoped.",
+      "timestamp": "2026-03-24T18:06:02Z"
+    },
+    {
+      "issue": 13,
+      "outcome": "already_covered",
+      "summary": "Validated stale CI failure issue against merged PR #17 and subsequent successful Pipeline Scripts CI run.",
+      "timestamp": "2026-03-24T18:06:02Z"
+    },
+    {
+      "issue": 10,
+      "outcome": "already_covered",
+      "summary": "Validated stale CI failure issue against merged PR #17 and subsequent successful Pipeline Scripts CI run.",
+      "timestamp": "2026-03-24T18:06:02Z"
+    },
+    {
+      "issue": 8,
+      "outcome": "already_covered",
+      "summary": "Validated stale CI failure issue against merged PR #17 and subsequent successful Pipeline Scripts CI run.",
+      "timestamp": "2026-03-24T18:06:02Z"
+    },
+    {
+      "issue": 16,
+      "outcome": "non_actionable",
+      "summary": "No-op tracker issue reviewed; no action required.",
+      "timestamp": "2026-03-24T18:06:02Z"
+    },
     {
       "issue": 18,
       "outcome": "blocked",
