@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-24T03:29:35Z",
+  "updated_at": "2026-03-24T04:37:23Z",
   "status": "AT_RISK",
   "counts": {
     "open_issues": 5,
@@ -16,11 +16,11 @@
     {
       "type": "triage",
       "issue": 7,
-      "result": "reconfirmed push_repo_memory file-count overflow root cause"
+      "result": "confirmed push_repo_memory file-count overflow (109 > 100) from failed logs"
     },
     {
       "type": "maintenance",
-      "result": "pruned repo-memory to state/status files"
+      "result": "updated repo-memory pipeline status and state"
     }
   ],
   "blocked": [
@@ -32,12 +32,12 @@
   "next_up": [
     {
       "issue": 4,
-      "title": "Add 30-day mood trend line chart positioned below the dashboard grid",
+      "title": "[Pipeline] Add 30-day mood trend line chart positioned below the dashboard grid",
       "state": "ready"
     },
     {
       "issue": 5,
-      "title": "Add PRD-level regression tests for daily logging, grid interactions, chart trend, and localStorage persistence",
+      "title": "[Pipeline] Add PRD-level regression tests for daily logging, grid interactions, chart trend, and localStorage persistence",
       "state": "blocked_on_4"
     }
   ]

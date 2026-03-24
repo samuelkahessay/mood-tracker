@@ -8,9 +8,9 @@
 | Completed | 2 |
 
 ### Recent Activity
-- Targeted Task 1: #5 remains blocked because dependency #4 is still open
-- Triage [aw] #7: reconfirmed root cause from failed logs (repo-memory file count overflow)
-- Maintained repo-memory under limits to prevent repeat push failures
+- Targeted Task 1: #5 re-evaluated and still blocked because dependency #4 is open
+- Task 6 triage: [aw] #7 logs reconfirmed root cause (`push_repo_memory` file-count overflow: 109 > 100)
+- Task 5: refreshed persistent pipeline state and next-up queue in repo-memory
 
 ### Blocked
 - #5: Waiting on #4 (dependency)
