@@ -1,21 +1,24 @@
-## Pipeline Status - Updated 2026-03-24
-
-Status: AT_RISK
+## Pipeline Status — Updated 2026-03-24
 
 | Stage | Count |
 |-------|-------|
-| Open Issues | 0 |
+| Open Issues | 4 |
 | In Progress | 0 |
 | PRs In Review | 0 |
-| Completed | 2 |
+| Completed | 5 |
 
 ### Recent Activity
-- Implemented #2: [Pipeline] Establish mood entry domain model and localStorage persistence for daily records -> PR #6 (merged)
-- Implemented #3: [Pipeline] Implement 30-day color-coded mood grid with click-to-add/edit day form -> PR #9 (merged)
-- Investigated #7: [aw] Pipeline Repo Assist failed -> root cause identified as repo-memory file-count overflow in `push_repo_memory`
+- Evaluated open pipeline issues #8, #10, #13; they map to the same pr-review-agent activation test failure and appear already addressed by merged PR #17.
+- Verified `scripts/tests/test-pr-review-agent-activation.sh` passes on current `main`.
+- Verified deploy-profile commands on Node 22: `npm test` and `npm run build` both pass in `studio/`.
+- Triaged [aw] issues #7, #11, #16 via workflow/job metadata and updated memory outcomes.
 
 ### Blocked
-- #7: Repo-memory push failed because memory payload exceeded file-count limit (109 > 100)
+- #8: Stale CI failure issue appears already covered by merged PR #17; remains open pending issue housekeeping.
+- #10: Stale CI failure issue appears already covered by merged PR #17; remains open pending issue housekeeping.
+- #11: Code Simplifier failed in job `agent` on run 23475620704; secret-scoped failed-job logs are unavailable to this run due integrity restrictions.
+- #13: Stale CI failure issue appears already covered by merged PR #17; remains open pending issue housekeeping.
 
 ### Next Up
-- #7: Re-run Pipeline Repo Assist after memory pruning validation
+- #13: [Pipeline] CI Failure (test) cleanup / closure check against merged PR #17.
+- #1: [Pipeline] Personal Mood Tracker umbrella issue review/closure after child implementation issues.

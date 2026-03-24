@@ -1,45 +1,26 @@
 {
-  "updated_at": "2026-03-24T00:00:00Z",
+  "updated_at": "2026-03-24T11:32:43Z",
   "status": "AT_RISK",
   "counts": {
-    "open_issues": 0,
+    "open_issues": 4,
     "in_progress": 0,
     "prs_in_review": 0,
-    "completed": 2
+    "completed": 5
   },
   "recent_activity": [
-    {
-      "type": "implemented",
-      "issue": 2,
-      "title": "[Pipeline] Establish mood entry domain model and localStorage persistence for daily records",
-      "pr": 6,
-      "state": "merged"
-    },
-    {
-      "type": "implemented",
-      "issue": 3,
-      "title": "[Pipeline] Implement 30-day color-coded mood grid with click-to-add/edit day form",
-      "pr": 9,
-      "state": "merged"
-    },
-    {
-      "type": "triage",
-      "issue": 7,
-      "title": "[aw] Pipeline Repo Assist failed",
-      "result": "identified push_repo_memory file-count overflow (109 > 100)"
-    }
+    "Evaluated open pipeline issues #8/#10/#13; all correspond to stale pr-review-agent activation failures now covered by merged PR #17.",
+    "Validated scripts/tests/test-pr-review-agent-activation.sh passes on current main.",
+    "Validated Node 22 profile commands in studio/: npm test and npm run build passed.",
+    "Triaged [aw] issues #7/#11/#16 using Actions run and job metadata."
   ],
   "blocked": [
-    {
-      "issue": 7,
-      "reason": "repo-memory file-count limit exceeded in push_repo_memory"
-    }
+    "#8 appears already covered by PR #17 but is still open.",
+    "#10 appears already covered by PR #17 but is still open.",
+    "#11 failed in Code Simplifier agent job; detailed failed logs are secret-scoped and unavailable under current integrity policy.",
+    "#13 appears already covered by PR #17 but is still open."
   ],
   "next_up": [
-    {
-      "issue": 7,
-      "title": "[aw] Pipeline Repo Assist failed",
-      "note": "re-run and confirm push_repo_memory succeeds"
-    }
+    "#13 pipeline CI-failure issue closure/cleanup",
+    "#1 umbrella PRD issue closure review"
   ]
 }
