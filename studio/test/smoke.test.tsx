@@ -1,11 +1,13 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
+
 import Home from "@/app/page";
 
 describe("App shell", () => {
-  it("renders the placeholder page", () => {
+  it("renders the mood tracker dashboard", () => {
     render(<Home />);
     expect(screen.getByRole("main")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Personal Mood Tracker" })).toBeInTheDocument();
   });
 });
