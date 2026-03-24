@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-03-24T04:37:23Z",
+  "updated_at": "2026-03-24T04:55:52Z",
   "status": "AT_RISK",
   "counts": {
-    "open_issues": 5,
+    "open_issues": 6,
     "in_progress": 0,
     "prs_in_review": 0,
     "completed": 2
@@ -10,8 +10,8 @@
   "recent_activity": [
     {
       "type": "targeted-issue",
-      "issue": 5,
-      "result": "blocked_on_dependency_4"
+      "issue": 8,
+      "result": "ci-failure-reproduced-local-fix-prepared"
     },
     {
       "type": "triage",
@@ -27,18 +27,27 @@
     {
       "issue": 5,
       "reason": "Waiting on dependency #4"
+    },
+    {
+      "issue": 8,
+      "reason": "Local fix prepared; awaiting follow-up PR creation"
     }
   ],
   "next_up": [
     {
-      "issue": 4,
-      "title": "[Pipeline] Add 30-day mood trend line chart positioned below the dashboard grid",
+      "issue": 8,
+      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T03:04:46.2",
       "state": "ready"
     },
     {
-      "issue": 5,
-      "title": "[Pipeline] Add PRD-level regression tests for daily logging, grid interactions, chart trend, and localStorage persistence",
-      "state": "blocked_on_4"
+      "issue": 10,
+      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T03:24:29.1",
+      "state": "ready"
+    },
+    {
+      "issue": 4,
+      "title": "[Pipeline] Add 30-day mood trend line chart positioned below the dashboard grid",
+      "state": "ready"
     }
   ]
 }
