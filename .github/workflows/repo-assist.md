@@ -163,6 +163,29 @@ In Targeted Issue Dispatch Mode:
 - If the issue is closed, missing, non-actionable, or still blocked by dependencies, exit without substituting a different issue.
 - Do not rotate to unrelated implementation tasks in this run. After the targeted issue path completes, you may still perform Task 5 and Task 6.
 
+Before ending a targeted-dispatch run, leave exactly one structured outcome comment on the bound issue using `add_comment`. Reuse your final source-issue comment if you already planned to leave one; otherwise add a short one just for this marker.
+
+That comment must include a hidden marker in exactly this format:
+
+```md
+<!-- self-healing-dispatch-outcome:v1
+agent_run_id=<workflow-run-id from GitHub context>
+issue_number=${{ github.event.inputs.issue_number }}
+outcome=<pr_created|blocked|already_covered|non_actionable|noop|missing_tool|missing_data|not_evaluated>
+pr_number=<PR number or empty>
+recorded_at=<ISO 8601 UTC timestamp>
+-->
+```
+
+Outcome rules:
+- `pr_created`: you created a `[Pipeline]` PR for the bound issue in this run.
+- `blocked`: you meaningfully evaluated the bound issue, but a dependency, prerequisite, or other real blocker prevented implementation.
+- `already_covered`: the bound issue was already satisfied by existing merged/open work and did not need a new PR.
+- `non_actionable`: the bound issue is not valid work for this lane.
+- `noop`: you intentionally called `noop` after meaningfully re-evaluating the bound issue.
+- `missing_tool` or `missing_data`: use these only when the bound issue could not be completed because the required tool or data was unavailable.
+- `not_evaluated`: use this if the run must exit before the bound issue was meaningfully evaluated. Never claim `blocked`, `already_covered`, or `noop` unless you actually re-read and assessed the bound issue.
+
 ## Architecture Context
 
 Before implementing any issue, check if an architecture plan exists:
