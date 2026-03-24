@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 
 import MoodEntryForm from "@/components/MoodEntryForm";
 import MoodGrid from "@/components/MoodGrid";
+import MoodTrendChart from "@/components/MoodTrendChart";
 import { DAY_WINDOW, getLastDayKeys } from "@/lib/mood/dateRange";
 import { getMoodEntriesForLastDays, writeMoodEntry } from "@/lib/mood/storage";
 import type { DayKey, MoodEntry } from "@/lib/mood/types";
@@ -45,6 +46,8 @@ export default function Home() {
         selectedDayKey={selectedDayKey}
         onSelectDay={setSelectedDayKey}
       />
+
+      <MoodTrendChart dayKeys={dayKeys} entriesByDay={entriesByDay} />
 
       {selectedDayKey ? (
         <MoodEntryForm dayKey={selectedDayKey} initialEntry={selectedEntry} onSubmit={handleSave} />
