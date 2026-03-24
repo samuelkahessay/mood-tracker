@@ -8,17 +8,17 @@
 | Completed | 5 |
 
 ### Recent Activity
-- Evaluated open pipeline issues #8, #10, #13; they map to the same pr-review-agent activation test failure and appear already addressed by merged PR #17.
-- Verified `scripts/tests/test-pr-review-agent-activation.sh` passes on current `main`.
-- Verified deploy-profile commands on Node 22: `npm test` and `npm run build` both pass in `studio/`.
-- Triaged [aw] issues #7, #11, #16 via workflow/job metadata and updated memory outcomes.
+- Evaluated open pipeline issues #8, #10, #13; they map to the same pr-review-agent activation failure and appear already addressed by merged PR #17.
+- Confirmed there are no open `[Pipeline]` pull requests requiring maintenance.
+- Triaged [aw] issues #7, #11, and #18 using workflow/job metadata from runs 23470836742, 23475620704, and 23487169184.
 
 ### Blocked
 - #8: Stale CI failure issue appears already covered by merged PR #17; remains open pending issue housekeeping.
 - #10: Stale CI failure issue appears already covered by merged PR #17; remains open pending issue housekeeping.
-- #11: Code Simplifier failed in job `agent` on run 23475620704; secret-scoped failed-job logs are unavailable to this run due integrity restrictions.
+- #11: Code Simplifier failed in job `agent`; failed-job logs are secret-scoped and unavailable under current integrity policy.
 - #13: Stale CI failure issue appears already covered by merged PR #17; remains open pending issue housekeeping.
+- #18: Duplicate Code Detector failed in job `agent`; failed-job logs are secret-scoped and unavailable under current integrity policy.
 
 ### Next Up
-- #13: [Pipeline] CI Failure (test) cleanup / closure check against merged PR #17.
-- #1: [Pipeline] Personal Mood Tracker umbrella issue review/closure after child implementation issues.
+- #13: [Pipeline] CI Failure issue closure/cleanup check against merged PR #17.
+- #1: [Pipeline] Personal Mood Tracker umbrella issue closure review after child implementation completion.

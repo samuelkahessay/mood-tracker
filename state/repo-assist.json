@@ -1,111 +1,95 @@
 {
-  "updated_at": "2026-03-24T11:32:43Z",
+  "updated_at": "2026-03-24T14:02:37Z",
   "cursor": {
-    "last_issue": 13
+    "last_issue": 18
   },
   "issues": {
     "1": {
       "outcome": "non_actionable",
       "summary": "Umbrella PRD issue; implementation appears split across child issues (#2-#5) while #1 remains open for housekeeping.",
-      "last_touched": "2026-03-24T11:32:43Z"
+      "last_touched": "2026-03-24T14:02:37Z"
     },
     "7": {
       "outcome": "blocked",
-      "summary": "[aw] repo-assist failure run 23470836742 root-caused to push_repo_memory job failure (repo-memory limits).",
-      "last_touched": "2026-03-24T11:32:43Z"
+      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory job; historical root cause was repo-memory push constraints.",
+      "last_touched": "2026-03-24T14:02:37Z"
     },
     "8": {
       "outcome": "already_covered",
       "summary": "CI-failure issue appears stale and already covered by merged PR #17 (activation assertion fix).",
-      "last_touched": "2026-03-24T11:32:43Z"
+      "last_touched": "2026-03-24T14:02:37Z"
     },
     "10": {
       "outcome": "already_covered",
       "summary": "CI-failure issue appears stale and already covered by merged PR #17 (activation assertion fix).",
-      "last_touched": "2026-03-24T11:32:43Z"
+      "last_touched": "2026-03-24T14:02:37Z"
     },
     "11": {
       "outcome": "blocked",
       "summary": "[aw] Code Simplifier run 23475620704 failed in agent job; failed-job log content unavailable due integrity restrictions.",
-      "last_touched": "2026-03-24T11:32:43Z"
+      "last_touched": "2026-03-24T14:02:37Z"
     },
     "13": {
       "outcome": "already_covered",
       "summary": "CI-failure issue appears stale and already covered by merged PR #17 (activation assertion fix).",
-      "last_touched": "2026-03-24T11:32:43Z"
+      "last_touched": "2026-03-24T14:02:37Z"
     },
     "16": {
       "outcome": "non_actionable",
       "summary": "[aw] No-Op Runs tracking issue explicitly marked as no action required.",
-      "last_touched": "2026-03-24T11:32:43Z"
+      "last_touched": "2026-03-24T14:02:37Z"
+    },
+    "18": {
+      "outcome": "blocked",
+      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job; failed-job log content unavailable due integrity restrictions.",
+      "last_touched": "2026-03-24T14:02:37Z"
     }
   },
-  "prs": {
-    "6": {
-      "issue": 2,
-      "state": "merged"
-    },
-    "9": {
-      "issue": 3,
-      "state": "merged"
-    },
-    "12": {
-      "issue": 4,
-      "state": "merged"
-    },
-    "14": {
-      "issue": 5,
-      "state": "merged"
-    },
-    "17": {
-      "issue": 15,
-      "state": "merged"
-    }
-  },
+  "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
     {
-      "issue": 13,
-      "outcome": "already_covered",
-      "summary": "Validated stale CI failure issue against merged PR #17 and passing local activation test.",
-      "timestamp": "2026-03-24T11:32:43Z"
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Triaged Duplicate Code Detector run 23487169184; agent job failed and detailed logs are secret-scoped.",
+      "timestamp": "2026-03-24T14:02:37Z"
     },
     {
       "issue": 11,
       "outcome": "blocked",
-      "summary": "Reviewed run/job metadata for Code Simplifier failure; failed-job logs are secret-scoped under current integrity policy.",
-      "timestamp": "2026-03-24T11:32:43Z"
+      "summary": "Triaged Code Simplifier run 23475620704; agent job failed and detailed logs are secret-scoped.",
+      "timestamp": "2026-03-24T14:02:37Z"
     },
     {
       "issue": 7,
       "outcome": "blocked",
-      "summary": "Confirmed historical repo-memory push failure root cause from push_repo_memory job.",
-      "timestamp": "2026-03-24T11:32:43Z"
+      "summary": "Revalidated historical repo-assist run 23470836742 push_repo_memory failure from job metadata.",
+      "timestamp": "2026-03-24T14:02:37Z"
+    },
+    {
+      "issue": 13,
+      "outcome": "already_covered",
+      "summary": "Validated stale CI failure issue against merged PR #17.",
+      "timestamp": "2026-03-24T14:02:37Z"
+    },
+    {
+      "issue": 10,
+      "outcome": "already_covered",
+      "summary": "Validated stale CI failure issue against merged PR #17.",
+      "timestamp": "2026-03-24T14:02:37Z"
+    },
+    {
+      "issue": 8,
+      "outcome": "already_covered",
+      "summary": "Validated stale CI failure issue against merged PR #17.",
+      "timestamp": "2026-03-24T14:02:37Z"
     },
     {
       "issue": 16,
       "outcome": "non_actionable",
       "summary": "No-op tracker issue reviewed; no action required.",
-      "timestamp": "2026-03-24T11:32:43Z"
-    },
-    {
-      "issue": 7,
-      "outcome": "blocked",
-      "summary": "Investigated run 23470836742 and confirmed push_repo_memory failure from too many files.",
-      "timestamp": "2026-03-24T00:00:00Z"
-    },
-    {
-      "issue": 3,
-      "outcome": "completed",
-      "summary": "Implemented via merged PR #9.",
-      "timestamp": "2026-03-24T00:00:00Z"
-    },
-    {
-      "issue": 2,
-      "outcome": "completed",
-      "summary": "Implemented via merged PR #6.",
-      "timestamp": "2026-03-24T00:00:00Z"
+      "timestamp": "2026-03-24T14:02:37Z"
     }
   ]
 }
