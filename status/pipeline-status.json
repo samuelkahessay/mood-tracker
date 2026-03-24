@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-24T18:06:02Z",
+  "updated_at": "2026-03-24T20:55:16Z",
   "status": "AT_RISK",
   "counts": {
     "open_issues": 4,
@@ -8,15 +8,15 @@
     "completed": 5
   },
   "recent_activity": [
-    "Revalidated open pipeline CI-failure issues #8/#10/#13 as stale: merged PR #17 fixed the underlying activation assertion drift and Pipeline Scripts CI run 23485200606 succeeded.",
-    "Verified there are no open [Pipeline] PRs requiring maintenance or review handling.",
-    "Triaged [aw] issues #7/#11/#18/#19 using run and job metadata; all current failures are in agent/push_repo_memory jobs with failed logs blocked by secrecy policy."
+    "Revalidated open pipeline CI-failure issues #8/#10/#13 as stale duplicates of the same activation assertion drift fixed by merged PR #17.",
+    "Confirmed there are no open [Pipeline] PRs requiring CI repair or review feedback handling.",
+    "Triaged [aw] issues #7/#11/#18/#19 from run metadata; all remain blocked because failed-job logs are secret-scoped."
   ],
   "blocked": [
-    "#7: Pipeline Repo Assist run 23470836742 failed at push_repo_memory; failed-job logs are secret-scoped.",
-    "#11: Code Simplifier run 23475620704 failed in agent job; failed-job logs are secret-scoped.",
-    "#18: Duplicate Code Detector run 23487169184 failed in agent job; failed-job logs are secret-scoped.",
-    "#19: Pipeline Status Report run 23495440387 failed in agent job; failed-job logs are secret-scoped."
+    "#7: Pipeline Repo Assist run 23470836742 failed; failed-job logs are secret-scoped.",
+    "#11: Code Simplifier run 23475620704 failed; failed-job logs are secret-scoped.",
+    "#18: Duplicate Code Detector run 23487169184 failed; failed-job logs are secret-scoped.",
+    "#19: Pipeline Status Report run 23495440387 failed; failed-job logs are secret-scoped."
   ],
   "next_up": [
     "#13: housekeeping close as stale CI-failure duplicate (already covered by PR #17)",

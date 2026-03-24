@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-24T18:06:02Z",
+  "updated_at": "2026-03-24T20:55:16Z",
   "cursor": {
-    "last_issue": 19
+    "last_issue": 13
   },
   "issues": {
     "1": {
@@ -11,28 +11,28 @@
     },
     "7": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed at push_repo_memory; failed-job logs are secret-scoped.",
-      "last_touched": "2026-03-24T18:06:02Z"
+      "summary": "[aw] Pipeline Repo Assist run 23470836742 still failed; failed-job logs are secret-scoped.",
+      "last_touched": "2026-03-24T20:55:16Z"
     },
     "8": {
       "outcome": "already_covered",
-      "summary": "Stale CI-failure issue; same pr-review-agent activation failure pattern was resolved by merged PR #17 and newer Pipeline Scripts CI run 23485200606 succeeded.",
-      "last_touched": "2026-03-24T18:06:02Z"
+      "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
+      "last_touched": "2026-03-24T20:55:16Z"
     },
     "10": {
       "outcome": "already_covered",
-      "summary": "Stale CI-failure issue; same pr-review-agent activation failure pattern was resolved by merged PR #17 and newer Pipeline Scripts CI run 23485200606 succeeded.",
-      "last_touched": "2026-03-24T18:06:02Z"
+      "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
+      "last_touched": "2026-03-24T20:55:16Z"
     },
     "11": {
       "outcome": "blocked",
-      "summary": "[aw] Code Simplifier run 23475620704 failed in agent job; failed-job logs are secret-scoped.",
-      "last_touched": "2026-03-24T18:06:02Z"
+      "summary": "[aw] Code Simplifier run 23475620704 still failed; failed-job logs are secret-scoped.",
+      "last_touched": "2026-03-24T20:55:16Z"
     },
     "13": {
       "outcome": "already_covered",
-      "summary": "Stale CI-failure issue; same pr-review-agent activation failure pattern was resolved by merged PR #17 and newer Pipeline Scripts CI run 23485200606 succeeded.",
-      "last_touched": "2026-03-24T18:06:02Z"
+      "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
+      "last_touched": "2026-03-24T20:55:16Z"
     },
     "16": {
       "outcome": "non_actionable",
@@ -41,19 +41,61 @@
     },
     "18": {
       "outcome": "blocked",
-      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job; failed-job logs are secret-scoped.",
-      "last_touched": "2026-03-24T18:06:02Z"
+      "summary": "[aw] Duplicate Code Detector run 23487169184 still failed; failed-job logs are secret-scoped.",
+      "last_touched": "2026-03-24T20:55:16Z"
     },
     "19": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent job; failed-job logs are secret-scoped.",
-      "last_touched": "2026-03-24T18:06:02Z"
+      "summary": "[aw] Pipeline Status Report run 23495440387 still failed; failed-job logs are secret-scoped.",
+      "last_touched": "2026-03-24T20:55:16Z"
     }
   },
   "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
+    {
+      "issue": 13,
+      "outcome": "already_covered",
+      "summary": "Revalidated open CI-failure issue as stale duplicate of defect fixed by merged PR #17.",
+      "timestamp": "2026-03-24T20:55:16Z"
+    },
+    {
+      "issue": 10,
+      "outcome": "already_covered",
+      "summary": "Revalidated open CI-failure issue as stale duplicate of defect fixed by merged PR #17.",
+      "timestamp": "2026-03-24T20:55:16Z"
+    },
+    {
+      "issue": 8,
+      "outcome": "already_covered",
+      "summary": "Revalidated open CI-failure issue as stale duplicate of defect fixed by merged PR #17.",
+      "timestamp": "2026-03-24T20:55:16Z"
+    },
+    {
+      "issue": 19,
+      "outcome": "blocked",
+      "summary": "Triaged run 23495440387; failed-job logs are secret-scoped.",
+      "timestamp": "2026-03-24T20:55:16Z"
+    },
+    {
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Triaged run 23487169184; failed-job logs are secret-scoped.",
+      "timestamp": "2026-03-24T20:55:16Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Triaged run 23475620704; failed-job logs are secret-scoped.",
+      "timestamp": "2026-03-24T20:55:16Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Triaged run 23470836742; failed-job logs are secret-scoped.",
+      "timestamp": "2026-03-24T20:55:16Z"
+    },
     {
       "issue": 19,
       "outcome": "blocked",
@@ -130,18 +172,6 @@
       "issue": 10,
       "outcome": "already_covered",
       "summary": "Validated stale CI failure issue against merged PR #17.",
-      "timestamp": "2026-03-24T14:02:37Z"
-    },
-    {
-      "issue": 8,
-      "outcome": "already_covered",
-      "summary": "Validated stale CI failure issue against merged PR #17.",
-      "timestamp": "2026-03-24T14:02:37Z"
-    },
-    {
-      "issue": 16,
-      "outcome": "non_actionable",
-      "summary": "No-op tracker issue reviewed; no action required.",
       "timestamp": "2026-03-24T14:02:37Z"
     }
   ]
