@@ -1,42 +1,44 @@
 {
-  "updated_at": "2026-03-24T03:19:49Z",
+  "updated_at": "2026-03-24T03:29:35Z",
   "status": "AT_RISK",
   "counts": {
     "open_issues": 5,
     "in_progress": 0,
     "prs_in_review": 0,
-    "completed": 1
+    "completed": 2
   },
   "recent_activity": [
     {
-      "type": "implemented",
-      "issue": 3,
-      "title": "Implement 30-day color-coded mood grid with click-to-add/edit day form",
-      "pr": null,
-      "result": "create_pull_request requested on branch repo-assist/issue-3-mood-grid-form"
+      "type": "targeted-issue",
+      "issue": 5,
+      "result": "blocked_on_dependency_4"
     },
     {
       "type": "triage",
       "issue": 7,
-      "title": "[aw] Pipeline Repo Assist failed",
-      "result": "confirmed root cause from logs: push_repo_memory file-count overflow"
+      "result": "reconfirmed push_repo_memory file-count overflow root cause"
     },
     {
       "type": "maintenance",
-      "result": "trimmed repo-memory to state/status files to stay below file-count limit"
+      "result": "pruned repo-memory to state/status files"
     }
   ],
   "blocked": [
     {
-      "issue": 4,
-      "reason": "Waiting on dependency #3"
+      "issue": 5,
+      "reason": "Waiting on dependency #4"
     }
   ],
   "next_up": [
     {
       "issue": 4,
       "title": "Add 30-day mood trend line chart positioned below the dashboard grid",
-      "state": "blocked_on_3"
+      "state": "ready"
+    },
+    {
+      "issue": 5,
+      "title": "Add PRD-level regression tests for daily logging, grid interactions, chart trend, and localStorage persistence",
+      "state": "blocked_on_4"
     }
   ]
 }

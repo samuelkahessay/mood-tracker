@@ -5,15 +5,16 @@
 | Open Issues | 5 |
 | In Progress | 0 |
 | PRs In Review | 0 |
-| Completed | 1 |
+| Completed | 2 |
 
 ### Recent Activity
-- Implemented #3: 30-day color-coded mood grid with click-to-add/edit day form; PR creation requested via safe-outputs on branch repo-assist/issue-3-mood-grid-form
-- Triage [aw] #7: confirmed root cause from failed run logs (push_repo_memory exceeded file-count limit)
-- Trimmed repo-memory footprint to prevent repeat push failures
+- Targeted Task 1: #5 remains blocked because dependency #4 is still open
+- Triage [aw] #7: reconfirmed root cause from failed logs (repo-memory file count overflow)
+- Maintained repo-memory under limits to prevent repeat push failures
 
 ### Blocked
-- #4: Waiting on #3 (dependency)
+- #5: Waiting on #4 (dependency)
 
 ### Next Up
-- #4: Add 30-day mood trend line chart positioned below the dashboard grid (ready after #3 closes)
+- #4: Add 30-day mood trend line chart positioned below the dashboard grid
+- #5: Add PRD-level regression tests once #4 is closed
