@@ -26,3 +26,58 @@ body {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
+
+.dashboard {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.dashboard h1 {
+  font-size: 1.75rem;
+}
+
+.mood-grid-section h2,
+.mood-form-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.mood-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.mood-day-cell {
+  border: none;
+  border-radius: 0.45rem;
+  min-height: 2.5rem;
+  cursor: pointer;
+  color: #111;
+  font-weight: 600;
+}
+
+.mood-day-cell[data-selected="true"] {
+  box-shadow: 0 0 0 2px #111;
+}
+
+.mood-form-section form {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 24rem;
+}
+
+.mood-form-day {
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.mood-form-section select,
+.mood-form-section textarea,
+.mood-form-section button {
+  font: inherit;
+  padding: 0.5rem;
+}
