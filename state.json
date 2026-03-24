@@ -1,4 +1,21 @@
 {
   "initialized": true,
-  "note": "Seeded by public beta bootstrap"
+  "last_run": "2026-03-24T00:00:00Z",
+  "backlog_cursor": 3,
+  "attempts": [
+    {
+      "issue": 4,
+      "timestamp": "2026-03-24T00:00:00Z",
+      "outcome": "blocked",
+      "reason": "Dependency #3 is still open"
+    }
+  ],
+  "aw_triage": [
+    {
+      "issue": 7,
+      "workflow_run_id": 23470836742,
+      "root_cause": "push_repo_memory failed because repo-memory artifact had too many files (109 > 100)",
+      "action": "memory trimmed and status/state rewritten to keep memory footprint small"
+    }
+  ]
 }
