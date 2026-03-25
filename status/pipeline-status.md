@@ -1,4 +1,4 @@
-## Pipeline Status — Updated 2026-03-25
+## Pipeline Status - Updated 2026-03-25
 
 | Stage | Count |
 |-------|-------|
@@ -8,19 +8,19 @@
 | Completed | 5 |
 
 ### Recent Activity
-- Triaged #19: [aw] Pipeline Status Report failed -> blocked (failed logs are secret-scoped)
-- Triaged #18: [aw] Duplicate Code Detector failed -> blocked (failed logs are secret-scoped)
-- Triaged #11: [aw] Code Simplifier failed -> blocked (failed logs are secret-scoped)
-- Triaged #7: [aw] Pipeline Repo Assist failed -> blocked (failed logs are secret-scoped)
-- Revalidated #1 as umbrella/non-actionable; implementation remains tracked in child issues
+- Triaged #19: [aw] Pipeline Status Report failed -> agent step failed (`Execute Codex CLI`)
+- Triaged #18: [aw] Duplicate Code Detector failed -> agent step failed (`Execute Codex CLI`)
+- Triaged #11: [aw] Code Simplifier failed -> agent step failed (`Execute Codex CLI`)
+- Triaged #7: [aw] Pipeline Repo Assist failed -> `push_repo_memory` step failed
 
 ### Blocked
-- #19: Waiting on accessible failed-job logs for run `23495440387`
-- #18: Waiting on accessible failed-job logs for run `23487169184`
-- #11: Waiting on accessible failed-job logs for run `23475620704`
-- #7: Waiting on accessible failed-job logs for run `23470836742`
+- #7: Waiting on workflow-level fix for `Push repo-memory changes (default)` failure
+- #11: Waiting on workflow-level fix for `Execute Codex CLI` failure
+- #18: Waiting on workflow-level fix for `Execute Codex CLI` failure
+- #19: Waiting on workflow-level fix for `Execute Codex CLI` failure
 
 ### Next Up
-- #8: Close stale CI failure issue already covered by merged PR #17
-- #10: Close stale CI failure issue already covered by merged PR #17
-- #13: Close stale CI failure issue already covered by merged PR #17
+- #1: [Pipeline] Personal Mood Tracker (umbrella PRD issue; verify whether closeout is desired)
+- #8: [Pipeline] CI Failure (stale duplicate; already covered by merged PR #17)
+- #10: [Pipeline] CI Failure (stale duplicate; already covered by merged PR #17)
+- #13: [Pipeline] CI Failure (stale duplicate; already covered by merged PR #17)

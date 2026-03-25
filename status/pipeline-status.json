@@ -1,5 +1,6 @@
 {
-  "updated_at": "2026-03-25T12:09:31Z",
+  "updated_at": "2026-03-25T16:46:56Z",
+  "date": "2026-03-25",
   "status": "AT_RISK",
   "counts": {
     "open_issues": 4,
@@ -12,66 +13,65 @@
       "issue": 19,
       "title": "[aw] Pipeline Status Report failed",
       "outcome": "blocked",
-      "summary": "Failed logs remain secret-scoped in current environment."
+      "summary": "Agent job failed at Execute Codex CLI"
     },
     {
       "issue": 18,
       "title": "[aw] Duplicate Code Detector failed",
       "outcome": "blocked",
-      "summary": "Failed logs remain secret-scoped in current environment."
+      "summary": "Agent job failed at Execute Codex CLI"
     },
     {
       "issue": 11,
       "title": "[aw] Code Simplifier failed",
       "outcome": "blocked",
-      "summary": "Failed logs remain secret-scoped in current environment."
+      "summary": "Agent job failed at Execute Codex CLI"
     },
     {
       "issue": 7,
       "title": "[aw] Pipeline Repo Assist failed",
       "outcome": "blocked",
-      "summary": "Failed logs remain secret-scoped in current environment."
-    },
-    {
-      "issue": 1,
-      "title": "[Pipeline] Personal Mood Tracker",
-      "outcome": "non_actionable",
-      "summary": "Umbrella PRD issue; actionable implementation completed in child issues #2-#5."
+      "summary": "push_repo_memory failed at Push repo-memory changes (default)"
     }
   ],
   "blocked": [
     {
-      "issue": 19,
-      "reason": "Need higher-secrecy access to failed-job logs for run 23495440387"
-    },
-    {
-      "issue": 18,
-      "reason": "Need higher-secrecy access to failed-job logs for run 23487169184"
+      "issue": 7,
+      "reason": "Waiting on workflow-level fix for push_repo_memory"
     },
     {
       "issue": 11,
-      "reason": "Need higher-secrecy access to failed-job logs for run 23475620704"
+      "reason": "Waiting on workflow-level fix for Execute Codex CLI"
     },
     {
-      "issue": 7,
-      "reason": "Need higher-secrecy access to failed-job logs for run 23470836742"
+      "issue": 18,
+      "reason": "Waiting on workflow-level fix for Execute Codex CLI"
+    },
+    {
+      "issue": 19,
+      "reason": "Waiting on workflow-level fix for Execute Codex CLI"
     }
   ],
   "next_up": [
     {
+      "issue": 1,
+      "title": "[Pipeline] Personal Mood Tracker",
+      "note": "Umbrella PRD issue; implementation appears complete in child issues"
+    },
+    {
       "issue": 8,
-      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T03:04:46.2",
-      "state": "ready"
+      "title": "[Pipeline] CI Failure ...",
+      "note": "Likely stale duplicate; covered by PR #17"
     },
     {
       "issue": 10,
-      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T03:24:29.1",
-      "state": "ready"
+      "title": "[Pipeline] CI Failure ...",
+      "note": "Likely stale duplicate; covered by PR #17"
     },
     {
       "issue": 13,
-      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T06:23:16.1",
-      "state": "ready"
+      "title": "[Pipeline] CI Failure ...",
+      "note": "Likely stale duplicate; covered by PR #17"
     }
   ]
 }

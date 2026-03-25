@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T12:09:31Z",
+  "updated_at": "2026-03-25T16:46:56Z",
   "cursor": {
     "last_issue": 19
   },
@@ -7,32 +7,32 @@
     "1": {
       "outcome": "non_actionable",
       "summary": "Umbrella PRD issue; implementation is already delivered across child issues #2-#5.",
-      "last_touched": "2026-03-25T12:09:31Z"
+      "last_touched": "2026-03-25T16:46:56Z"
     },
     "7": {
       "outcome": "blocked",
       "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory job at \"Push repo-memory changes (default)\".",
-      "last_touched": "2026-03-25T12:09:31Z"
+      "last_touched": "2026-03-25T16:46:56Z"
     },
     "8": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-25T12:09:31Z"
+      "last_touched": "2026-03-25T16:46:56Z"
     },
     "10": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-25T12:09:31Z"
+      "last_touched": "2026-03-25T16:46:56Z"
     },
     "11": {
       "outcome": "blocked",
-      "summary": "[aw] Code Simplifier run 23475620704 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
-      "last_touched": "2026-03-25T12:09:31Z"
+      "summary": "[aw] Code Simplifier run 23475620704 failed in agent job at \"Execute Codex CLI\".",
+      "last_touched": "2026-03-25T16:46:56Z"
     },
     "13": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-25T12:09:31Z"
+      "last_touched": "2026-03-25T16:46:56Z"
     },
     "16": {
       "outcome": "non_actionable",
@@ -41,19 +41,43 @@
     },
     "18": {
       "outcome": "blocked",
-      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
-      "last_touched": "2026-03-25T12:09:31Z"
+      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job at \"Execute Codex CLI\".",
+      "last_touched": "2026-03-25T16:46:56Z"
     },
     "19": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
-      "last_touched": "2026-03-25T12:09:31Z"
+      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent job at \"Execute Codex CLI\".",
+      "last_touched": "2026-03-25T16:46:56Z"
     }
   },
   "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
+    {
+      "issue": 19,
+      "outcome": "blocked",
+      "summary": "Triaged run 23495440387; agent job failed at \"Execute Codex CLI\".",
+      "timestamp": "2026-03-25T16:46:56Z"
+    },
+    {
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Triaged run 23487169184; agent job failed at \"Execute Codex CLI\".",
+      "timestamp": "2026-03-25T16:46:56Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Triaged run 23475620704; agent job failed at \"Execute Codex CLI\".",
+      "timestamp": "2026-03-25T16:46:56Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Triaged run 23470836742; push_repo_memory job failed at \"Push repo-memory changes (default)\".",
+      "timestamp": "2026-03-25T16:46:56Z"
+    },
     {
       "issue": 19,
       "outcome": "blocked",
@@ -149,30 +173,6 @@
       "outcome": "blocked",
       "summary": "Triaged run 23475620704: agent job failed at Execute Codex CLI; failed logs are secret-scoped.",
       "timestamp": "2026-03-25T05:05:08Z"
-    },
-    {
-      "issue": 7,
-      "outcome": "blocked",
-      "summary": "Triaged run 23470836742: push_repo_memory job failed at Push repo-memory changes step.",
-      "timestamp": "2026-03-25T05:05:08Z"
-    },
-    {
-      "issue": 13,
-      "outcome": "already_covered",
-      "summary": "Revalidated open CI-failure issue as stale duplicate of defect fixed by merged PR #17.",
-      "timestamp": "2026-03-24T20:55:16Z"
-    },
-    {
-      "issue": 10,
-      "outcome": "already_covered",
-      "summary": "Revalidated open CI-failure issue as stale duplicate of defect fixed by merged PR #17.",
-      "timestamp": "2026-03-24T20:55:16Z"
-    },
-    {
-      "issue": 8,
-      "outcome": "already_covered",
-      "summary": "Revalidated open CI-failure issue as stale duplicate of defect fixed by merged PR #17.",
-      "timestamp": "2026-03-24T20:55:16Z"
     }
   ]
 }
