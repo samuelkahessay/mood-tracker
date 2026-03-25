@@ -8,19 +8,19 @@
 | Completed | 5 |
 
 ### Recent Activity
-- Triaged #19 (`[aw] Pipeline Status Report failed`): run `23495440387` failed in `agent` job at `Execute Codex CLI`.
-- Triaged #18 (`[aw] Duplicate Code Detector failed`): run `23487169184` failed in `agent` job at `Execute Codex CLI`.
-- Triaged #11 (`[aw] Code Simplifier failed`): run `23475620704` failed in `agent` job at `Execute Codex CLI`.
-- Triaged #7 (`[aw] Pipeline Repo Assist failed`): run `23470836742` failed in `push_repo_memory` job at `Push repo-memory changes (default)`.
+- Triaged #19: [aw] Pipeline Status Report failed -> blocked (failed logs are secret-scoped)
+- Triaged #18: [aw] Duplicate Code Detector failed -> blocked (failed logs are secret-scoped)
+- Triaged #11: [aw] Code Simplifier failed -> blocked (failed logs are secret-scoped)
+- Triaged #7: [aw] Pipeline Repo Assist failed -> blocked (failed logs are secret-scoped)
+- Revalidated #1 as umbrella/non-actionable; implementation remains tracked in child issues
 
 ### Blocked
-- #19: Failed-job logs are secret-scoped at current integrity level.
-- #18: Failed-job logs are secret-scoped at current integrity level.
-- #11: Failed-job logs are secret-scoped at current integrity level.
-- #7: Cannot validate root push failure details because failed log payload is secret-scoped.
+- #19: Waiting on accessible failed-job logs for run `23495440387`
+- #18: Waiting on accessible failed-job logs for run `23487169184`
+- #11: Waiting on accessible failed-job logs for run `23475620704`
+- #7: Waiting on accessible failed-job logs for run `23470836742`
 
 ### Next Up
-- No currently implementable issue in `pipeline + (feature|test|infra|docs|bug)` scope requiring new code changes.
-- Re-evaluate open CI-failure issues `#8`, `#10`, and `#13` for manual closure since fix landed in merged PR #17.
-
-Status: AT_RISK
+- #8: Close stale CI failure issue already covered by merged PR #17
+- #10: Close stale CI failure issue already covered by merged PR #17
+- #13: Close stale CI failure issue already covered by merged PR #17

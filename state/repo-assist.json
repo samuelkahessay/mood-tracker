@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T11:29:41Z",
+  "updated_at": "2026-03-25T12:09:31Z",
   "cursor": {
     "last_issue": 19
   },
@@ -7,32 +7,32 @@
     "1": {
       "outcome": "non_actionable",
       "summary": "Umbrella PRD issue; implementation is already delivered across child issues #2-#5.",
-      "last_touched": "2026-03-24T18:06:02Z"
+      "last_touched": "2026-03-25T12:09:31Z"
     },
     "7": {
       "outcome": "blocked",
       "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory job at \"Push repo-memory changes (default)\".",
-      "last_touched": "2026-03-25T11:29:41Z"
+      "last_touched": "2026-03-25T12:09:31Z"
     },
     "8": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-24T20:55:16Z"
+      "last_touched": "2026-03-25T12:09:31Z"
     },
     "10": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-24T20:55:16Z"
+      "last_touched": "2026-03-25T12:09:31Z"
     },
     "11": {
       "outcome": "blocked",
       "summary": "[aw] Code Simplifier run 23475620704 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
-      "last_touched": "2026-03-25T11:29:41Z"
+      "last_touched": "2026-03-25T12:09:31Z"
     },
     "13": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate is stale; same pr-review-agent activation assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-24T20:55:16Z"
+      "last_touched": "2026-03-25T12:09:31Z"
     },
     "16": {
       "outcome": "non_actionable",
@@ -42,18 +42,48 @@
     "18": {
       "outcome": "blocked",
       "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
-      "last_touched": "2026-03-25T11:29:41Z"
+      "last_touched": "2026-03-25T12:09:31Z"
     },
     "19": {
       "outcome": "blocked",
       "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
-      "last_touched": "2026-03-25T11:29:41Z"
+      "last_touched": "2026-03-25T12:09:31Z"
     }
   },
   "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
+    {
+      "issue": 19,
+      "outcome": "blocked",
+      "summary": "Triaged run 23495440387; agent job failed at \"Execute Codex CLI\" and failed logs remain secret-scoped.",
+      "timestamp": "2026-03-25T12:09:31Z"
+    },
+    {
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Triaged run 23487169184; agent job failed at \"Execute Codex CLI\" and failed logs remain secret-scoped.",
+      "timestamp": "2026-03-25T12:09:31Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Triaged run 23475620704; agent job failed at \"Execute Codex CLI\" and failed logs remain secret-scoped.",
+      "timestamp": "2026-03-25T12:09:31Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Triaged run 23470836742; push_repo_memory job failed at \"Push repo-memory changes (default)\".",
+      "timestamp": "2026-03-25T12:09:31Z"
+    },
+    {
+      "issue": 1,
+      "outcome": "non_actionable",
+      "summary": "Revalidated umbrella PRD issue; child implementation issues remain source of actionable work.",
+      "timestamp": "2026-03-25T12:09:31Z"
+    },
     {
       "issue": 19,
       "outcome": "blocked",
@@ -143,36 +173,6 @@
       "outcome": "already_covered",
       "summary": "Revalidated open CI-failure issue as stale duplicate of defect fixed by merged PR #17.",
       "timestamp": "2026-03-24T20:55:16Z"
-    },
-    {
-      "issue": 19,
-      "outcome": "blocked",
-      "summary": "Triaged run 23495440387; failed-job logs are secret-scoped.",
-      "timestamp": "2026-03-24T20:55:16Z"
-    },
-    {
-      "issue": 18,
-      "outcome": "blocked",
-      "summary": "Triaged run 23487169184; failed-job logs are secret-scoped.",
-      "timestamp": "2026-03-24T20:55:16Z"
-    },
-    {
-      "issue": 11,
-      "outcome": "blocked",
-      "summary": "Triaged run 23475620704; failed-job logs are secret-scoped.",
-      "timestamp": "2026-03-24T20:55:16Z"
-    },
-    {
-      "issue": 7,
-      "outcome": "blocked",
-      "summary": "Triaged run 23470836742; failed-job logs are secret-scoped.",
-      "timestamp": "2026-03-24T20:55:16Z"
-    },
-    {
-      "issue": 19,
-      "outcome": "blocked",
-      "summary": "Triaged Pipeline Status Report run 23495440387; agent job failed and detailed failed logs are inaccessible at current integrity level.",
-      "timestamp": "2026-03-24T18:06:02Z"
     }
   ]
 }

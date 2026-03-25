@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T11:29:41Z",
+  "updated_at": "2026-03-25T12:09:31Z",
   "status": "AT_RISK",
   "counts": {
     "open_issues": 4,
@@ -8,19 +8,70 @@
     "completed": 5
   },
   "recent_activity": [
-    "Triaged #19 run 23495440387: agent job failed at Execute Codex CLI; failed logs are secret-scoped.",
-    "Triaged #18 run 23487169184: agent job failed at Execute Codex CLI; failed logs are secret-scoped.",
-    "Triaged #11 run 23475620704: agent job failed at Execute Codex CLI; failed logs are secret-scoped.",
-    "Triaged #7 run 23470836742: push_repo_memory job failed at Push repo-memory changes (default)."
+    {
+      "issue": 19,
+      "title": "[aw] Pipeline Status Report failed",
+      "outcome": "blocked",
+      "summary": "Failed logs remain secret-scoped in current environment."
+    },
+    {
+      "issue": 18,
+      "title": "[aw] Duplicate Code Detector failed",
+      "outcome": "blocked",
+      "summary": "Failed logs remain secret-scoped in current environment."
+    },
+    {
+      "issue": 11,
+      "title": "[aw] Code Simplifier failed",
+      "outcome": "blocked",
+      "summary": "Failed logs remain secret-scoped in current environment."
+    },
+    {
+      "issue": 7,
+      "title": "[aw] Pipeline Repo Assist failed",
+      "outcome": "blocked",
+      "summary": "Failed logs remain secret-scoped in current environment."
+    },
+    {
+      "issue": 1,
+      "title": "[Pipeline] Personal Mood Tracker",
+      "outcome": "non_actionable",
+      "summary": "Umbrella PRD issue; actionable implementation completed in child issues #2-#5."
+    }
   ],
   "blocked": [
-    "#19: Failed-job logs are secret-scoped at current integrity level.",
-    "#18: Failed-job logs are secret-scoped at current integrity level.",
-    "#11: Failed-job logs are secret-scoped at current integrity level.",
-    "#7: push_repo_memory failure details are log-redacted at current integrity level."
+    {
+      "issue": 19,
+      "reason": "Need higher-secrecy access to failed-job logs for run 23495440387"
+    },
+    {
+      "issue": 18,
+      "reason": "Need higher-secrecy access to failed-job logs for run 23487169184"
+    },
+    {
+      "issue": 11,
+      "reason": "Need higher-secrecy access to failed-job logs for run 23475620704"
+    },
+    {
+      "issue": 7,
+      "reason": "Need higher-secrecy access to failed-job logs for run 23470836742"
+    }
   ],
   "next_up": [
-    "No implementable pipeline issue currently requires repository code changes.",
-    "Re-evaluate stale open CI failure issues #8, #10, and #13 for manual closure referencing merged PR #17."
+    {
+      "issue": 8,
+      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T03:04:46.2",
+      "state": "ready"
+    },
+    {
+      "issue": 10,
+      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T03:24:29.1",
+      "state": "ready"
+    },
+    {
+      "issue": 13,
+      "title": "[Pipeline] CI Failure (test): pipeline-scripts Test pr-review-agent activation bypass 2026-03-24T06:23:16.1",
+      "state": "ready"
+    }
   ]
 }
