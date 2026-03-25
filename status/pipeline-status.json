@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T16:46:56Z",
+  "updated_at": "2026-03-25T18:07:15Z",
   "date": "2026-03-25",
   "status": "AT_RISK",
   "counts": {
@@ -13,65 +13,65 @@
       "issue": 19,
       "title": "[aw] Pipeline Status Report failed",
       "outcome": "blocked",
-      "summary": "Agent job failed at Execute Codex CLI"
+      "summary": "Run 23495440387 still failing; failed logs are secret-scoped"
     },
     {
       "issue": 18,
       "title": "[aw] Duplicate Code Detector failed",
       "outcome": "blocked",
-      "summary": "Agent job failed at Execute Codex CLI"
+      "summary": "Run 23487169184 still failing; failed logs are secret-scoped"
     },
     {
       "issue": 11,
       "title": "[aw] Code Simplifier failed",
       "outcome": "blocked",
-      "summary": "Agent job failed at Execute Codex CLI"
+      "summary": "Run 23475620704 still failing; failed logs are secret-scoped"
     },
     {
       "issue": 7,
       "title": "[aw] Pipeline Repo Assist failed",
       "outcome": "blocked",
-      "summary": "push_repo_memory failed at Push repo-memory changes (default)"
+      "summary": "Run 23470836742 still failing; failed logs are secret-scoped"
     }
   ],
   "blocked": [
     {
       "issue": 7,
-      "reason": "Waiting on workflow-level fix for push_repo_memory"
+      "reason": "Waiting on workflow-level fix; failed-job logs unavailable at current integrity level"
     },
     {
       "issue": 11,
-      "reason": "Waiting on workflow-level fix for Execute Codex CLI"
+      "reason": "Waiting on workflow-level fix; failed-job logs unavailable at current integrity level"
     },
     {
       "issue": 18,
-      "reason": "Waiting on workflow-level fix for Execute Codex CLI"
+      "reason": "Waiting on workflow-level fix; failed-job logs unavailable at current integrity level"
     },
     {
       "issue": 19,
-      "reason": "Waiting on workflow-level fix for Execute Codex CLI"
+      "reason": "Waiting on workflow-level fix; failed-job logs unavailable at current integrity level"
     }
   ],
   "next_up": [
     {
-      "issue": 1,
-      "title": "[Pipeline] Personal Mood Tracker",
-      "note": "Umbrella PRD issue; implementation appears complete in child issues"
-    },
-    {
       "issue": 8,
-      "title": "[Pipeline] CI Failure ...",
-      "note": "Likely stale duplicate; covered by PR #17"
+      "title": "[Pipeline] CI Failure (test): stale duplicate",
+      "note": "Already covered by merged PR #17"
     },
     {
       "issue": 10,
-      "title": "[Pipeline] CI Failure ...",
-      "note": "Likely stale duplicate; covered by PR #17"
+      "title": "[Pipeline] CI Failure (test): stale duplicate",
+      "note": "Already covered by merged PR #17"
     },
     {
       "issue": 13,
-      "title": "[Pipeline] CI Failure ...",
-      "note": "Likely stale duplicate; covered by PR #17"
+      "title": "[Pipeline] CI Failure (test): stale duplicate",
+      "note": "Already covered by merged PR #17"
+    },
+    {
+      "issue": 1,
+      "title": "[Pipeline] Personal Mood Tracker",
+      "note": "Umbrella PRD issue; non-actionable in implementation lane"
     }
   ]
 }
