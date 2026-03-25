@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T06:44:56Z",
+  "updated_at": "2026-03-25T11:29:41Z",
   "cursor": {
     "last_issue": 19
   },
@@ -11,8 +11,8 @@
     },
     "7": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed; failed logs are secret-scoped at current integrity level.",
-      "last_touched": "2026-03-25T06:44:56Z"
+      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory job at \"Push repo-memory changes (default)\".",
+      "last_touched": "2026-03-25T11:29:41Z"
     },
     "8": {
       "outcome": "already_covered",
@@ -26,8 +26,8 @@
     },
     "11": {
       "outcome": "blocked",
-      "summary": "[aw] Code Simplifier run 23475620704 failed; failed logs are secret-scoped at current integrity level.",
-      "last_touched": "2026-03-25T06:44:56Z"
+      "summary": "[aw] Code Simplifier run 23475620704 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
+      "last_touched": "2026-03-25T11:29:41Z"
     },
     "13": {
       "outcome": "already_covered",
@@ -41,19 +41,43 @@
     },
     "18": {
       "outcome": "blocked",
-      "summary": "[aw] Duplicate Code Detector run 23487169184 failed; failed logs are secret-scoped at current integrity level.",
-      "last_touched": "2026-03-25T06:44:56Z"
+      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
+      "last_touched": "2026-03-25T11:29:41Z"
     },
     "19": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Status Report run 23495440387 failed; failed logs are secret-scoped at current integrity level.",
-      "last_touched": "2026-03-25T06:44:56Z"
+      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent job at \"Execute Codex CLI\"; failed logs are secret-scoped.",
+      "last_touched": "2026-03-25T11:29:41Z"
     }
   },
   "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
+    {
+      "issue": 19,
+      "outcome": "blocked",
+      "summary": "Triaged run 23495440387; agent job failed at \"Execute Codex CLI\" and failed logs remain secret-scoped.",
+      "timestamp": "2026-03-25T11:29:41Z"
+    },
+    {
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Triaged run 23487169184; agent job failed at \"Execute Codex CLI\" and failed logs remain secret-scoped.",
+      "timestamp": "2026-03-25T11:29:41Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Triaged run 23475620704; agent job failed at \"Execute Codex CLI\" and failed logs remain secret-scoped.",
+      "timestamp": "2026-03-25T11:29:41Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Triaged run 23470836742; push_repo_memory job failed at \"Push repo-memory changes (default)\".",
+      "timestamp": "2026-03-25T11:29:41Z"
+    },
     {
       "issue": 19,
       "outcome": "blocked",
@@ -148,30 +172,6 @@
       "issue": 19,
       "outcome": "blocked",
       "summary": "Triaged Pipeline Status Report run 23495440387; agent job failed and detailed failed logs are inaccessible at current integrity level.",
-      "timestamp": "2026-03-24T18:06:02Z"
-    },
-    {
-      "issue": 18,
-      "outcome": "blocked",
-      "summary": "Re-triaged Duplicate Code Detector run 23487169184; agent job failure persists with secret-scoped failed logs.",
-      "timestamp": "2026-03-24T18:06:02Z"
-    },
-    {
-      "issue": 11,
-      "outcome": "blocked",
-      "summary": "Re-triaged Code Simplifier run 23475620704; agent job failure persists with secret-scoped failed logs.",
-      "timestamp": "2026-03-24T18:06:02Z"
-    },
-    {
-      "issue": 7,
-      "outcome": "blocked",
-      "summary": "Re-triaged Pipeline Repo Assist run 23470836742; push_repo_memory job failed and failed-job logs are secret-scoped.",
-      "timestamp": "2026-03-24T18:06:02Z"
-    },
-    {
-      "issue": 13,
-      "outcome": "already_covered",
-      "summary": "Validated stale CI failure issue against merged PR #17 and subsequent successful Pipeline Scripts CI run.",
       "timestamp": "2026-03-24T18:06:02Z"
     }
   ]
