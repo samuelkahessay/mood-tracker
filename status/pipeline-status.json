@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T18:07:15Z",
+  "updated_at": "2026-03-25T23:09:37Z",
   "date": "2026-03-25",
   "status": "AT_RISK",
   "counts": {
@@ -13,43 +13,43 @@
       "issue": 19,
       "title": "[aw] Pipeline Status Report failed",
       "outcome": "blocked",
-      "summary": "Run 23495440387 still failing; failed logs are secret-scoped"
+      "summary": "Run 23495440387 failed in agent step Execute Codex CLI"
     },
     {
       "issue": 18,
       "title": "[aw] Duplicate Code Detector failed",
       "outcome": "blocked",
-      "summary": "Run 23487169184 still failing; failed logs are secret-scoped"
+      "summary": "Run 23487169184 failed in agent step Execute Codex CLI"
     },
     {
       "issue": 11,
       "title": "[aw] Code Simplifier failed",
       "outcome": "blocked",
-      "summary": "Run 23475620704 still failing; failed logs are secret-scoped"
+      "summary": "Run 23475620704 failed in agent step Execute Codex CLI"
     },
     {
       "issue": 7,
       "title": "[aw] Pipeline Repo Assist failed",
       "outcome": "blocked",
-      "summary": "Run 23470836742 still failing; failed logs are secret-scoped"
+      "summary": "Run 23470836742 failed in push_repo_memory step Push repo-memory changes (default)"
     }
   ],
   "blocked": [
     {
       "issue": 7,
-      "reason": "Waiting on workflow-level fix; failed-job logs unavailable at current integrity level"
+      "reason": "Waiting on workflow-level fix for push_repo_memory; failed logs unavailable at current integrity level"
     },
     {
       "issue": 11,
-      "reason": "Waiting on workflow-level fix; failed-job logs unavailable at current integrity level"
+      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI; failed logs unavailable at current integrity level"
     },
     {
       "issue": 18,
-      "reason": "Waiting on workflow-level fix; failed-job logs unavailable at current integrity level"
+      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI; failed logs unavailable at current integrity level"
     },
     {
       "issue": 19,
-      "reason": "Waiting on workflow-level fix; failed-job logs unavailable at current integrity level"
+      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI; failed logs unavailable at current integrity level"
     }
   ],
   "next_up": [
