@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T05:05:08Z",
+  "updated_at": "2026-03-25T06:44:56Z",
   "status": "AT_RISK",
   "counts": {
     "open_issues": 4,
@@ -8,18 +8,21 @@
     "completed": 5
   },
   "recent_activity": [
-    "Verified there are no open implementation issues labeled pipeline + (feature/test/infra/docs/bug).",
-    "Confirmed there are no open [Pipeline] PRs requiring CI repair or review-feedback handling.",
-    "Triaged [aw] issues #7/#11/#18/#19 from workflow job metadata; failure points were identified but failed-job logs remain secret-scoped."
+    "Re-triaged #19 run 23495440387; blocked by secret-scoped failed logs.",
+    "Re-triaged #18 run 23487169184; blocked by secret-scoped failed logs.",
+    "Re-triaged #11 run 23475620704; blocked by secret-scoped failed logs.",
+    "Re-triaged #7 run 23470836742; blocked by secret-scoped failed logs."
   ],
   "blocked": [
-    "#7: Pipeline Repo Assist run 23470836742 failed in push_repo_memory at Push repo-memory changes (default).",
-    "#11: Code Simplifier run 23475620704 failed in agent at Execute Codex CLI.",
-    "#18: Duplicate Code Detector run 23487169184 failed in agent at Execute Codex CLI.",
-    "#19: Pipeline Status Report run 23495440387 failed in agent at Execute Codex CLI."
+    "#7: Failed-job logs inaccessible at current integrity level.",
+    "#11: Failed-job logs inaccessible at current integrity level.",
+    "#18: Failed-job logs inaccessible at current integrity level.",
+    "#19: Failed-job logs inaccessible at current integrity level."
   ],
   "next_up": [
-    "Re-triage #7/#11/#18/#19 when failed-job logs are accessible at current integrity level.",
-    "Implement the next open pipeline issue when one appears."
+    "#1: [Pipeline] Personal Mood Tracker (umbrella issue review).",
+    "#8: stale CI-failure duplicate likely already covered by PR #17.",
+    "#10: stale CI-failure duplicate likely already covered by PR #17.",
+    "#13: stale CI-failure duplicate likely already covered by PR #17."
   ]
 }

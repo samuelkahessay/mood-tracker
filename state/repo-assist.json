@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T05:05:08Z",
+  "updated_at": "2026-03-25T06:44:56Z",
   "cursor": {
     "last_issue": 19
   },
@@ -11,8 +11,8 @@
     },
     "7": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory (Push repo-memory changes step).",
-      "last_touched": "2026-03-25T05:05:08Z"
+      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed; failed logs are secret-scoped at current integrity level.",
+      "last_touched": "2026-03-25T06:44:56Z"
     },
     "8": {
       "outcome": "already_covered",
@@ -26,8 +26,8 @@
     },
     "11": {
       "outcome": "blocked",
-      "summary": "[aw] Code Simplifier run 23475620704 failed in agent job at Execute Codex CLI.",
-      "last_touched": "2026-03-25T05:05:08Z"
+      "summary": "[aw] Code Simplifier run 23475620704 failed; failed logs are secret-scoped at current integrity level.",
+      "last_touched": "2026-03-25T06:44:56Z"
     },
     "13": {
       "outcome": "already_covered",
@@ -41,19 +41,43 @@
     },
     "18": {
       "outcome": "blocked",
-      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent job at Execute Codex CLI.",
-      "last_touched": "2026-03-25T05:05:08Z"
+      "summary": "[aw] Duplicate Code Detector run 23487169184 failed; failed logs are secret-scoped at current integrity level.",
+      "last_touched": "2026-03-25T06:44:56Z"
     },
     "19": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent job at Execute Codex CLI.",
-      "last_touched": "2026-03-25T05:05:08Z"
+      "summary": "[aw] Pipeline Status Report run 23495440387 failed; failed logs are secret-scoped at current integrity level.",
+      "last_touched": "2026-03-25T06:44:56Z"
     }
   },
   "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
+    {
+      "issue": 19,
+      "outcome": "blocked",
+      "summary": "Triaged run 23495440387; failed-job logs remain secret-scoped at current integrity level.",
+      "timestamp": "2026-03-25T06:44:56Z"
+    },
+    {
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Triaged run 23487169184; failed-job logs remain secret-scoped at current integrity level.",
+      "timestamp": "2026-03-25T06:44:56Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Triaged run 23475620704; failed-job logs remain secret-scoped at current integrity level.",
+      "timestamp": "2026-03-25T06:44:56Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Triaged run 23470836742; failed-job logs remain secret-scoped at current integrity level.",
+      "timestamp": "2026-03-25T06:44:56Z"
+    },
     {
       "issue": 19,
       "outcome": "blocked",
@@ -149,30 +173,6 @@
       "outcome": "already_covered",
       "summary": "Validated stale CI failure issue against merged PR #17 and subsequent successful Pipeline Scripts CI run.",
       "timestamp": "2026-03-24T18:06:02Z"
-    },
-    {
-      "issue": 10,
-      "outcome": "already_covered",
-      "summary": "Validated stale CI failure issue against merged PR #17 and subsequent successful Pipeline Scripts CI run.",
-      "timestamp": "2026-03-24T18:06:02Z"
-    },
-    {
-      "issue": 8,
-      "outcome": "already_covered",
-      "summary": "Validated stale CI failure issue against merged PR #17 and subsequent successful Pipeline Scripts CI run.",
-      "timestamp": "2026-03-24T18:06:02Z"
-    },
-    {
-      "issue": 16,
-      "outcome": "non_actionable",
-      "summary": "No-op tracker issue reviewed; no action required.",
-      "timestamp": "2026-03-24T18:06:02Z"
-    },
-    {
-      "issue": 18,
-      "outcome": "blocked",
-      "summary": "Triaged Duplicate Code Detector run 23487169184; agent job failed and detailed logs are secret-scoped.",
-      "timestamp": "2026-03-24T14:02:37Z"
     }
   ]
 }
