@@ -8,10 +8,10 @@
 | Completed | 5 |
 
 ### Recent Activity
-- Re-triaged #19: [aw] Pipeline Status Report failed -> run 23495440387 failed in `agent` job step `Execute Codex CLI`
-- Re-triaged #18: [aw] Duplicate Code Detector failed -> run 23487169184 failed in `agent` job step `Execute Codex CLI`
-- Re-triaged #11: [aw] Code Simplifier failed -> run 23475620704 failed in `agent` job step `Execute Codex CLI`
-- Re-triaged #7: [aw] Pipeline Repo Assist failed -> run 23470836742 failed in `push_repo_memory` job step `Push repo-memory changes (default)`
+- Re-triaged #19: [aw] Pipeline Status Report failed -> run 23495440387 still fails in `agent` job step `Execute Codex CLI`
+- Re-triaged #18: [aw] Duplicate Code Detector failed -> run 23487169184 still fails in `agent` job step `Execute Codex CLI`
+- Re-triaged #11: [aw] Code Simplifier failed -> run 23475620704 still fails in `agent` job step `Execute Codex CLI`
+- Re-triaged #7: [aw] Pipeline Repo Assist failed -> run 23470836742 still fails in `push_repo_memory` job step `Push repo-memory changes (default)`
 
 ### Blocked
 - #7: Waiting on workflow-level fix for `push_repo_memory` failure at `Push repo-memory changes (default)`

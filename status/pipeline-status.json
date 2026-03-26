@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T07:25:18Z",
+  "updated_at": "2026-03-26T09:40:24Z",
   "date": "2026-03-26",
   "status": "AT_RISK",
   "counts": {
@@ -13,25 +13,25 @@
       "issue": 19,
       "title": "[aw] Pipeline Status Report failed",
       "outcome": "blocked",
-      "summary": "Run 23495440387 failed in agent step Execute Codex CLI"
+      "summary": "Run 23495440387 still failing in agent step Execute Codex CLI"
     },
     {
       "issue": 18,
       "title": "[aw] Duplicate Code Detector failed",
       "outcome": "blocked",
-      "summary": "Run 23487169184 failed in agent step Execute Codex CLI"
+      "summary": "Run 23487169184 still failing in agent step Execute Codex CLI"
     },
     {
       "issue": 11,
       "title": "[aw] Code Simplifier failed",
       "outcome": "blocked",
-      "summary": "Run 23475620704 failed in agent step Execute Codex CLI"
+      "summary": "Run 23475620704 still failing in agent step Execute Codex CLI"
     },
     {
       "issue": 7,
       "title": "[aw] Pipeline Repo Assist failed",
       "outcome": "blocked",
-      "summary": "Run 23470836742 failed in push_repo_memory step Push repo-memory changes (default)"
+      "summary": "Run 23470836742 still failing in push_repo_memory step Push repo-memory changes (default)"
     }
   ],
   "blocked": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T07:25:18Z",
+  "updated_at": "2026-03-26T09:40:24Z",
   "cursor": {
     "last_issue": 19
   },
@@ -11,8 +11,8 @@
     },
     "7": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory step Push repo-memory changes (default).",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "summary": "[aw] Pipeline Repo Assist run 23470836742 still fails in push_repo_memory step Push repo-memory changes (default).",
+      "last_touched": "2026-03-26T09:40:24Z"
     },
     "8": {
       "outcome": "already_covered",
@@ -26,8 +26,8 @@
     },
     "11": {
       "outcome": "blocked",
-      "summary": "[aw] Code Simplifier run 23475620704 failed in agent step Execute Codex CLI.",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "summary": "[aw] Code Simplifier run 23475620704 still fails in agent step Execute Codex CLI.",
+      "last_touched": "2026-03-26T09:40:24Z"
     },
     "13": {
       "outcome": "already_covered",
@@ -37,23 +37,53 @@
     "16": {
       "outcome": "non_actionable",
       "summary": "[aw] No-Op Runs tracker remains informational and requires no remediation action.",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "last_touched": "2026-03-26T09:40:24Z"
     },
     "18": {
       "outcome": "blocked",
-      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent step Execute Codex CLI.",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "summary": "[aw] Duplicate Code Detector run 23487169184 still fails in agent step Execute Codex CLI.",
+      "last_touched": "2026-03-26T09:40:24Z"
     },
     "19": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent step Execute Codex CLI.",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "summary": "[aw] Pipeline Status Report run 23495440387 still fails in agent step Execute Codex CLI.",
+      "last_touched": "2026-03-26T09:40:24Z"
     }
   },
   "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
+    {
+      "issue": 19,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23495440387; still failing in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T09:40:24Z"
+    },
+    {
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23487169184; still failing in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T09:40:24Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23475620704; still failing in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T09:40:24Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23470836742; still failing in push_repo_memory step Push repo-memory changes (default).",
+      "timestamp": "2026-03-26T09:40:24Z"
+    },
+    {
+      "issue": 16,
+      "outcome": "non_actionable",
+      "summary": "Revalidated [aw] No-Op Runs tracker as informational only.",
+      "timestamp": "2026-03-26T09:40:24Z"
+    },
     {
       "issue": 19,
       "outcome": "blocked",
