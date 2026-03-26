@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-25T23:09:37Z",
-  "date": "2026-03-25",
+  "updated_at": "2026-03-26T06:06:32Z",
+  "date": "2026-03-26",
   "status": "AT_RISK",
   "counts": {
     "open_issues": 4,
@@ -37,19 +37,19 @@
   "blocked": [
     {
       "issue": 7,
-      "reason": "Waiting on workflow-level fix for push_repo_memory; failed logs unavailable at current integrity level"
+      "reason": "Waiting on workflow-level fix for push_repo_memory failure at Push repo-memory changes (default)"
     },
     {
       "issue": 11,
-      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI; failed logs unavailable at current integrity level"
+      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI"
     },
     {
       "issue": 18,
-      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI; failed logs unavailable at current integrity level"
+      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI"
     },
     {
       "issue": 19,
-      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI; failed logs unavailable at current integrity level"
+      "reason": "Waiting on workflow-level fix for agent Execute Codex CLI"
     }
   ],
   "next_up": [

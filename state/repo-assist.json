@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-03-25T23:09:37Z",
+  "updated_at": "2026-03-26T06:06:32Z",
   "cursor": {
-    "last_issue": 13
+    "last_issue": 19
   },
   "issues": {
     "1": {
       "outcome": "non_actionable",
       "summary": "Umbrella PRD issue remains non-actionable; implementation delivered in child issues #2-#5.",
-      "last_touched": "2026-03-25T18:07:15Z"
+      "last_touched": "2026-03-26T06:06:32Z"
     },
     "7": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory step \"Push repo-memory changes (default)\"; failed logs are secret-scoped at current integrity level.",
-      "last_touched": "2026-03-25T23:09:37Z"
+      "summary": "[aw] Pipeline Repo Assist run 23470836742 failed in push_repo_memory step Push repo-memory changes (default).",
+      "last_touched": "2026-03-26T06:06:32Z"
     },
     "8": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate remains stale; same pr-review-agent assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-25T18:07:15Z"
+      "last_touched": "2026-03-26T06:06:32Z"
     },
     "10": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate remains stale; same pr-review-agent assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-25T18:07:15Z"
+      "last_touched": "2026-03-26T06:06:32Z"
     },
     "11": {
       "outcome": "blocked",
-      "summary": "[aw] Code Simplifier run 23475620704 failed in agent step \"Execute Codex CLI\"; failed logs are secret-scoped at current integrity level.",
-      "last_touched": "2026-03-25T23:09:37Z"
+      "summary": "[aw] Code Simplifier run 23475620704 failed in agent step Execute Codex CLI.",
+      "last_touched": "2026-03-26T06:06:32Z"
     },
     "13": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate remains stale; same pr-review-agent assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-25T18:07:15Z"
+      "last_touched": "2026-03-26T06:06:32Z"
     },
     "16": {
       "outcome": "non_actionable",
       "summary": "[aw] No-Op Runs tracker remains informational and requires no remediation action.",
-      "last_touched": "2026-03-25T23:09:37Z"
+      "last_touched": "2026-03-26T06:06:32Z"
     },
     "18": {
       "outcome": "blocked",
-      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent step \"Execute Codex CLI\"; failed logs are secret-scoped at current integrity level.",
-      "last_touched": "2026-03-25T23:09:37Z"
+      "summary": "[aw] Duplicate Code Detector run 23487169184 failed in agent step Execute Codex CLI.",
+      "last_touched": "2026-03-26T06:06:32Z"
     },
     "19": {
       "outcome": "blocked",
-      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent step \"Execute Codex CLI\"; failed logs are secret-scoped at current integrity level.",
-      "last_touched": "2026-03-25T23:09:37Z"
+      "summary": "[aw] Pipeline Status Report run 23495440387 failed in agent step Execute Codex CLI.",
+      "last_touched": "2026-03-26T06:06:32Z"
     }
   },
   "prs": {},
@@ -57,122 +57,80 @@
     {
       "issue": 19,
       "outcome": "blocked",
-      "summary": "Re-triaged run 23495440387; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
-      "timestamp": "2026-03-25T23:09:37Z"
+      "summary": "Re-triaged run 23495440387; failed in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T06:06:32Z"
     },
     {
       "issue": 18,
       "outcome": "blocked",
-      "summary": "Re-triaged run 23487169184; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
-      "timestamp": "2026-03-25T23:09:37Z"
+      "summary": "Re-triaged run 23487169184; failed in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T06:06:32Z"
     },
     {
       "issue": 11,
       "outcome": "blocked",
-      "summary": "Re-triaged run 23475620704; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
-      "timestamp": "2026-03-25T23:09:37Z"
+      "summary": "Re-triaged run 23475620704; failed in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T06:06:32Z"
     },
     {
       "issue": 7,
       "outcome": "blocked",
-      "summary": "Re-triaged run 23470836742; failed in push_repo_memory step Push repo-memory changes (default); logs remain secret-scoped.",
-      "timestamp": "2026-03-25T23:09:37Z"
+      "summary": "Re-triaged run 23470836742; failed in push_repo_memory step Push repo-memory changes (default).",
+      "timestamp": "2026-03-26T06:06:32Z"
     },
     {
       "issue": 16,
       "outcome": "non_actionable",
       "summary": "Revalidated [aw] No-Op Runs tracker as informational only.",
-      "timestamp": "2026-03-25T23:09:37Z"
-    },
-    {
-      "issue": 19,
-      "outcome": "blocked",
-      "summary": "Re-triaged run 23495440387; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
-      "timestamp": "2026-03-25T23:09:14Z"
-    },
-    {
-      "issue": 18,
-      "outcome": "blocked",
-      "summary": "Re-triaged run 23487169184; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
-      "timestamp": "2026-03-25T23:09:14Z"
-    },
-    {
-      "issue": 11,
-      "outcome": "blocked",
-      "summary": "Re-triaged run 23475620704; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
-      "timestamp": "2026-03-25T23:09:14Z"
-    },
-    {
-      "issue": 7,
-      "outcome": "blocked",
-      "summary": "Re-triaged run 23470836742; failed in push_repo_memory step Push repo-memory changes (default); logs remain secret-scoped.",
-      "timestamp": "2026-03-25T23:09:14Z"
-    },
-    {
-      "issue": 16,
-      "outcome": "non_actionable",
-      "summary": "Revalidated [aw] No-Op Runs tracker as informational only.",
-      "timestamp": "2026-03-25T23:09:14Z"
-    },
-    {
-      "issue": 19,
-      "outcome": "blocked",
-      "summary": "Re-triaged run 23495440387; failed-job logs remain secret-scoped.",
-      "timestamp": "2026-03-25T18:07:15Z"
-    },
-    {
-      "issue": 18,
-      "outcome": "blocked",
-      "summary": "Re-triaged run 23487169184; failed-job logs remain secret-scoped.",
-      "timestamp": "2026-03-25T18:07:15Z"
-    },
-    {
-      "issue": 11,
-      "outcome": "blocked",
-      "summary": "Re-triaged run 23475620704; failed-job logs remain secret-scoped.",
-      "timestamp": "2026-03-25T18:07:15Z"
-    },
-    {
-      "issue": 7,
-      "outcome": "blocked",
-      "summary": "Re-triaged run 23470836742; failed-job logs remain secret-scoped.",
-      "timestamp": "2026-03-25T18:07:15Z"
+      "timestamp": "2026-03-26T06:06:32Z"
     },
     {
       "issue": 13,
       "outcome": "already_covered",
       "summary": "Open CI failure issue remains stale and already covered by merged PR #17.",
-      "timestamp": "2026-03-25T18:07:15Z"
+      "timestamp": "2026-03-26T06:06:32Z"
     },
     {
       "issue": 10,
       "outcome": "already_covered",
       "summary": "Open CI failure issue remains stale and already covered by merged PR #17.",
-      "timestamp": "2026-03-25T18:07:15Z"
+      "timestamp": "2026-03-26T06:06:32Z"
     },
     {
       "issue": 8,
       "outcome": "already_covered",
       "summary": "Open CI failure issue remains stale and already covered by merged PR #17.",
-      "timestamp": "2026-03-25T18:07:15Z"
-    },
-    {
-      "issue": 1,
-      "outcome": "non_actionable",
-      "summary": "Umbrella PRD issue remains non-actionable for implementation lane.",
-      "timestamp": "2026-03-25T18:07:15Z"
+      "timestamp": "2026-03-26T06:06:32Z"
     },
     {
       "issue": 19,
       "outcome": "blocked",
-      "summary": "Triaged run 23495440387; agent job failed at \"Execute Codex CLI\".",
-      "timestamp": "2026-03-25T16:46:56Z"
+      "summary": "Re-triaged run 23495440387; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
+      "timestamp": "2026-03-25T23:09:37Z"
     },
     {
       "issue": 18,
       "outcome": "blocked",
-      "summary": "Triaged run 23487169184; agent job failed at \"Execute Codex CLI\".",
-      "timestamp": "2026-03-25T16:46:56Z"
+      "summary": "Re-triaged run 23487169184; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
+      "timestamp": "2026-03-25T23:09:37Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23475620704; failed in agent step Execute Codex CLI; logs remain secret-scoped.",
+      "timestamp": "2026-03-25T23:09:37Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23470836742; failed in push_repo_memory step Push repo-memory changes (default); logs remain secret-scoped.",
+      "timestamp": "2026-03-25T23:09:37Z"
+    },
+    {
+      "issue": 16,
+      "outcome": "non_actionable",
+      "summary": "Revalidated [aw] No-Op Runs tracker as informational only.",
+      "timestamp": "2026-03-25T23:09:37Z"
     }
   ]
 }

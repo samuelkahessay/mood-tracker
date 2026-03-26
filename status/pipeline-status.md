@@ -1,4 +1,4 @@
-## Pipeline Status - Updated 2026-03-25
+## Pipeline Status - Updated 2026-03-26
 
 | Stage | Count |
 |-------|-------|
@@ -14,10 +14,10 @@
 - Re-triaged #7: [aw] Pipeline Repo Assist failed -> run 23470836742 failed in `push_repo_memory` job step `Push repo-memory changes (default)`
 
 ### Blocked
-- #7: Waiting on workflow-level fix for `push_repo_memory`; failed logs are secret-scoped at current integrity level
-- #11: Waiting on workflow-level fix for `agent` step `Execute Codex CLI`; failed logs are secret-scoped at current integrity level
-- #18: Waiting on workflow-level fix for `agent` step `Execute Codex CLI`; failed logs are secret-scoped at current integrity level
-- #19: Waiting on workflow-level fix for `agent` step `Execute Codex CLI`; failed logs are secret-scoped at current integrity level
+- #7: Waiting on workflow-level fix for `push_repo_memory` failure at `Push repo-memory changes (default)`
+- #11: Waiting on workflow-level fix for `agent` failure at `Execute Codex CLI`
+- #18: Waiting on workflow-level fix for `agent` failure at `Execute Codex CLI`
+- #19: Waiting on workflow-level fix for `agent` failure at `Execute Codex CLI`
 
 ### Next Up
 - #8: [Pipeline] CI Failure (stale duplicate; already covered by merged PR #17)
