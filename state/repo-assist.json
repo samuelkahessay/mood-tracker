@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T09:40:24Z",
+  "updated_at": "2026-03-26T14:11:44Z",
   "cursor": {
     "last_issue": 19
   },
@@ -7,53 +7,101 @@
     "1": {
       "outcome": "non_actionable",
       "summary": "Umbrella PRD issue remains non-actionable; implementation delivered in child issues #2-#5.",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     },
     "7": {
       "outcome": "blocked",
       "summary": "[aw] Pipeline Repo Assist run 23470836742 still fails in push_repo_memory step Push repo-memory changes (default).",
-      "last_touched": "2026-03-26T09:40:24Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     },
     "8": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate remains stale; same pr-review-agent assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     },
     "10": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate remains stale; same pr-review-agent assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     },
     "11": {
       "outcome": "blocked",
       "summary": "[aw] Code Simplifier run 23475620704 still fails in agent step Execute Codex CLI.",
-      "last_touched": "2026-03-26T09:40:24Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     },
     "13": {
       "outcome": "already_covered",
       "summary": "Open CI-failure duplicate remains stale; same pr-review-agent assertion drift was fixed by merged PR #17.",
-      "last_touched": "2026-03-26T07:25:18Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     },
     "16": {
       "outcome": "non_actionable",
       "summary": "[aw] No-Op Runs tracker remains informational and requires no remediation action.",
-      "last_touched": "2026-03-26T09:40:24Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     },
     "18": {
       "outcome": "blocked",
       "summary": "[aw] Duplicate Code Detector run 23487169184 still fails in agent step Execute Codex CLI.",
-      "last_touched": "2026-03-26T09:40:24Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     },
     "19": {
       "outcome": "blocked",
       "summary": "[aw] Pipeline Status Report run 23495440387 still fails in agent step Execute Codex CLI.",
-      "last_touched": "2026-03-26T09:40:24Z"
+      "last_touched": "2026-03-26T14:11:44Z"
     }
   },
   "prs": {},
   "dependencies": {},
   "checkpoint": null,
   "recent_history": [
+    {
+      "issue": 13,
+      "outcome": "already_covered",
+      "summary": "Revalidated stale CI-failure duplicate as already resolved by merged PR #17.",
+      "timestamp": "2026-03-26T14:11:44Z"
+    },
+    {
+      "issue": 10,
+      "outcome": "already_covered",
+      "summary": "Revalidated stale CI-failure duplicate as already resolved by merged PR #17.",
+      "timestamp": "2026-03-26T14:11:44Z"
+    },
+    {
+      "issue": 8,
+      "outcome": "already_covered",
+      "summary": "Revalidated stale CI-failure duplicate as already resolved by merged PR #17.",
+      "timestamp": "2026-03-26T14:11:44Z"
+    },
+    {
+      "issue": 19,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23495440387; still failing in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T14:11:44Z"
+    },
+    {
+      "issue": 18,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23487169184; still failing in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T14:11:44Z"
+    },
+    {
+      "issue": 11,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23475620704; still failing in agent step Execute Codex CLI.",
+      "timestamp": "2026-03-26T14:11:44Z"
+    },
+    {
+      "issue": 7,
+      "outcome": "blocked",
+      "summary": "Re-triaged run 23470836742; still failing in push_repo_memory step Push repo-memory changes (default).",
+      "timestamp": "2026-03-26T14:11:44Z"
+    },
+    {
+      "issue": 16,
+      "outcome": "non_actionable",
+      "summary": "Revalidated [aw] No-Op Runs tracker as informational only.",
+      "timestamp": "2026-03-26T14:11:44Z"
+    },
     {
       "issue": 19,
       "outcome": "blocked",
@@ -122,12 +170,6 @@
     },
     {
       "issue": 10,
-      "outcome": "already_covered",
-      "summary": "Open CI failure issue remains stale and already covered by merged PR #17.",
-      "timestamp": "2026-03-26T07:25:18Z"
-    },
-    {
-      "issue": 8,
       "outcome": "already_covered",
       "summary": "Open CI failure issue remains stale and already covered by merged PR #17.",
       "timestamp": "2026-03-26T07:25:18Z"

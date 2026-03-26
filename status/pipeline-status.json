@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T09:40:24Z",
+  "updated_at": "2026-03-26T14:11:44Z",
   "date": "2026-03-26",
   "status": "AT_RISK",
   "counts": {
@@ -32,6 +32,12 @@
       "title": "[aw] Pipeline Repo Assist failed",
       "outcome": "blocked",
       "summary": "Run 23470836742 still failing in push_repo_memory step Push repo-memory changes (default)"
+    },
+    {
+      "issue": 13,
+      "title": "[Pipeline] CI Failure duplicate",
+      "outcome": "already_covered",
+      "summary": "Already resolved by merged PR #17"
     }
   ],
   "blocked": [

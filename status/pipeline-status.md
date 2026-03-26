@@ -12,6 +12,7 @@
 - Re-triaged #18: [aw] Duplicate Code Detector failed -> run 23487169184 still fails in `agent` job step `Execute Codex CLI`
 - Re-triaged #11: [aw] Code Simplifier failed -> run 23475620704 still fails in `agent` job step `Execute Codex CLI`
 - Re-triaged #7: [aw] Pipeline Repo Assist failed -> run 23470836742 still fails in `push_repo_memory` job step `Push repo-memory changes (default)`
+- Revalidated stale pipeline CI duplicates #8, #10, #13 as already resolved by merged PR #17
 
 ### Blocked
 - #7: Waiting on workflow-level fix for `push_repo_memory` failure at `Push repo-memory changes (default)`
